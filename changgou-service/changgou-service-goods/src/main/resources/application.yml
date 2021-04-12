@@ -26,4 +26,4 @@ goods:
 #  configuration:
 #    map-underscore-to-camel-case: true
 #  mapper-locations: classpath:mapper/*Mapper.xml
-#  type-aliases-package: com.changgou.changgou.pojo
+#  type-aliases-package: com.changgou.changgou.content
