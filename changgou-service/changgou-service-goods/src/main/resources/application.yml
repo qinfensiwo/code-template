@@ -2,7 +2,7 @@ server:
   port: 18081
 spring:
   application:
-    name: changgou
+    name: goods
   datasource:
     driver-class-name: com.mysql.jdbc.Driver
     url: jdbc:mysql://192.168.211.132:3306/changgou_goods?useUnicode=true&characterEncoding=UTF-8&useSSL = false&serverTimezone=UTC

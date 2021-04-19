@@ -3,6 +3,11 @@ server:
 spring:
   application:
     name: canal
+  redis:
+    host: 192.168.211.132
+    port: 6379
+  main:
+    allow-bean-definition-overriding: true
 eureka:
   client:
     service-url:
@@ -26,6 +31,7 @@ hystrix:
 canal:
   client:
     instances:
+      # exmaple
       example:
         host: 192.168.211.132
         port: 11111
